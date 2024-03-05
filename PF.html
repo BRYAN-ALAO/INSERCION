@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style>
+body {
+            background: linear-gradient(135deg, #09C,#F93,#09C,#036,#3CF,#036,#09C,#F93,#09C,#F93,#09C,#036,#3CF);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+
+    /* Estilo para la tabla */
+    table {
+      width: 1500px; /* Ancho de la tabla al 100% del contenedor */
+      height: auto; /* Altura de la tabla al 100% del contenedor */
+      border-collapse: collapse; /* Colapsar los bordes de la tabla */
+    }
+
+    /* Estilo para la primera celda */
+    .td1 {
+      text-align: center; /* Alineación del contenido al centro */
+      vertical-align: middle; /* Alineación vertical al centro */
+      padding: 0; /* Sin relleno */
+      background-image: url('EF.png'); /* Imagen de fondo */
+      background-size: 1500px auto; /* Ajustar tamaño de la imagen */
+      background-position: center; /* Posicionar imagen al centro */
+    }
+	table {
+            border-collapse: separate;
+            border-spacing: 10px; 
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        td, th {
+            padding: 10px;
+            border-radius: 15px;
+            text-align: center;
+            background-color: #fff; 
+            border: 1px solid #999;
+			cursor: pointer;
+        }
+		.imagen-redondeada2 {
+    border-radius: 10px; /* Ajusta el valor según la cantidad de redondeo que desees */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ajusta el valor según la intensidad de la sombra */
+    transition: box-shadow 0.3s ease-in-out; /* Agrega una transición suave */
+}
+
+.imagen-redondeada2:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Ajusta el valor según la intensidad de la sombra al pasar el mouse */
+}
+
+
+.social-icons {
+            list-style: none;
+            padding: 0;
+        }
+
+        .social-icons li {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .social-icons a {
+	text-decoration: none;
+	font-size: 60px;
+	color: #FFF; 
+	transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+	color: #0FF; 
+	transition: all.3s;
+	transform: scale(1,1) translateY(-10px);
+        }
+		 
+	.highlight-cell {
+            transition: box-shadow 0.3s;
+        }
+
+    .highlight-cell:hover {
+			transform: translateY(-4px);
+	        transition: all.3s; 
+            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3); 
+            background-color:#FFF; 
+        }
+		
+		
+		.a1 {
+    text-decoration: none;
+    color: black;
+    position: relative; /* Hace que la posición de los enlaces sea relativa */
+}
+
+.a1::after {
+    content: ''; /* Agrega un contenido vacío después del enlace */
+    position: absolute; /* Hace que la posición del pseudo-elemento sea absoluta */
+    left: 50%; /* Alinea el pseudo-elemento con el centro del enlace */
+    bottom: -10px; /* Ubica el pseudo-elemento 10px por debajo del enlace */
+    width: 20px; /* Establece el ancho del pseudo-elemento */
+    height: 20px; /* Establece la altura del pseudo-elemento */
+    background-color: rgba(102, 204, 255, 0.5); /* Color de las gotas */
+    border-radius: 50%; /* Hace que el pseudo-elemento sea redondeado para representar una gota */
+    transform: translateX(-50%) scaleY(0); /* Desplaza y escala la gota para ocultarla inicialmente */
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
+}
+
+.a1::before {
+    content: ''; /* Agrega un contenido vacío antes del enlace */
+    position: absolute; /* Hace que la posición del pseudo-elemento sea absoluta */
+    left: 0; /* Alinea el pseudo-elemento con el borde izquierdo del enlace */
+    bottom: -3px; /* Ubica el pseudo-elemento 3px por debajo del enlace */
+    width: 100%; /* Establece la anchura del pseudo-elemento al 100% del enlace */
+    height: 2px; /* Establece la altura del pseudo-elemento */
+    background-color: rgba(102, 204, 255, 0.5); /* Color de las cotas */
+    transform: scaleX(0); /* Escala horizontal del pseudo-elemento a cero para ocultarlo inicialmente */
+    transform-origin: bottom left; /* Establece el origen de la transformación */
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
+}
+
+.a1:hover::after {
+    transform: translateX(-50%) scaleY(1); /* Desplaza y escala la gota para que aparezca al pasar el mouse */
+}
+
+.a1:hover::before {
+    transform: scaleX(1); /* Escala horizontal del pseudo-elemento a 1 al pasar el mouse sobre el enlace */
+}
+
+  </style>
+</head>
+
+<body>
+<div align="center">
+  <table width="1500" height="1382" border="0">
+    <tr>
+      <td height="375" colspan="4" class="td1"background="EF.png" >&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="highlight-cell" onclick="redirectToIframe('file:///C:/Users/HP/Desktop/alao/Dw%20CS6%20Portable%20Es/PROYECTO%20FOL/EDPP.html')" width="376"><div class="a1">ETAPAS</div></td>
+      <td class="highlight-cell" onclick="redirectToIframe('file:///C:/Users/HP/Desktop/alao/Dw%20CS6%20Portable%20Es/PROYECTO%20FOL/DI.html')" width="374"><div class="a1">DESARROLLO</div></td>
+      <td class="highlight-cell" onclick="redirectToIframe('file:///C:/Users/HP/Desktop/alao/Dw%20CS6%20Portable%20Es/PROYECTO%20FOL/MC.html')" width="389"><div class="a1">ENTORNO</div></td>
+      <td class="highlight-cell" onclick="redirectToIframe('file:///C:/Users/HP/Desktop/alao/Dw%20CS6%20Portable%20Es/PROYECTO%20FOL/LA.html')" height="60"><div class="a1">AUTONOMIA</div></td>
+    </tr>
+    <tr>
+      <td height="670" colspan="3"><iframe id="iframeTarget" class="imagen-redondeada2" src="ISL.html" name="2006" width="1126" height="670" frameborder="0" scrolling="yes"></iframe></td>
+      <td width="343" height="670"><div id="imageContainer">
+        <img id="dynamicImage1" class="imagen-redondeada2" src="PSL.png" width="320" height="670" />
+        <img id="dynamicImage2" class="imagen-redondeada2" src="XD.png" width="320" height="670" />
+         <img id="dynamicImage3" class="imagen-redondeada2" src="XX.png" width="320" height="670" />
+    </div></td>
+    </tr>
+    <tr>
+      <td height="143" colspan="4" style="background:linear-gradient(45deg, #09C,#399,#F96,#CC6,#099,#CC6,#F96,#399,#09C)">
+      <strong><em>REDES SOCIALES:</em></strong></h3>         
+    <ul class="social-icons" align="center">
+      <li>
+       <div align="center"><a target="new" href="https://instagram.com/alao_bryan?igshid=MzMyNGUyNmU2YQ==" class="fa fa-instagram"></a></div></li>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+      <li>
+          <div align="center"><a target="new" href="https://www.facebook.com/profile.php?id=100087175242563&mibextid=ZbWKwL" class="fa fa-facebook"></a></div>
+        </li>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li>
+          <div align="center"><a target="new"href="https://youtube.com/@Darkchild20064?si=-Nj_7_XzOYhQM2mq" class="fa fa-youtube"></a></div>
+        </li>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li>
+          <div align="center"><a target="new"href="https://pin.it/11LCASM" class="fa fa-pinterest"></a></div>
+        </li>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <li>
+          <div align="center"><a target="new" href="https://www.snapchat.com/add/bryan_alao?share_id=Dk0P4-uX2n0&locale=es-EC" class="fa fa-snapchat"></a></div>
+        </li>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li>
+          <div align="center"><a target="new" href="https://www.reddit.com/u/Alauxs2006/s/UNcEBakygB" class="fa fa-reddit"></a></div>
+        </li>
+</ul></td>
+    </tr>
+  </table>
+</div>
+<script>
+    // Función para redirigir al iframe
+    function redirectToIframe(url) {
+        var iframe = document.getElementById('iframeTarget');
+        iframe.src = url; // Cambiamos la URL del iframe al hacer clic en la celda
+    }
+</script>
+<script>
+    var images = ['PSL.png', 'XD.png', 'XX.png']; // Agrega las rutas de tus imágenes aquí
+    var currentIndex = 0;
+
+    function changeImage() {
+        // Ocultar todas las imágenes
+        for (var i = 1; i <= images.length; i++) {
+            document.getElementById('dynamicImage' + i).style.display = 'none';
+        }
+
+        // Mostrar la imagen actual
+        document.getElementById('dynamicImage' + (currentIndex + 1)).style.display = 'block';
+
+        currentIndex = (currentIndex + 1) % images.length; // Avanza al siguiente índice circularmente
+    }
+
+    // Inicializar mostrando la primera imagen
+    changeImage();
+
+    // Cambiar la imagen cada 6 segundos
+    setInterval(changeImage, 6000); // 6000 milisegundos = 6 segundos
+</script>
+</body>
+</html>
